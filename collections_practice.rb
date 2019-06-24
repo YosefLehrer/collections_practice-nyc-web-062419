@@ -32,6 +32,9 @@ end
 
 def find_a(array)
   new_array = []
-  new_array << array.select { |num|  start_with("a")  }
+  array.each do |word|
+    if word[0] == "a"
+      new_array << word
+  end
   new_array
 end
