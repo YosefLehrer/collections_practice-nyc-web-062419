@@ -41,5 +41,6 @@ def find_a(array)
 end
 
 def sum_array(array)
-  number = array[]
+  number = array[0] + array[1] + array[2] + array[3] + array[4] + array[5] + array[6]
+  number
 end
