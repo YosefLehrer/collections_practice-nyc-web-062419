@@ -51,7 +51,8 @@ def add_s(array)
     if word == "feet" 
       new_array << word
     else
-      new_array << word << "s"
+      word << "s"
+      new_array << word
     end
   end
   new_array
