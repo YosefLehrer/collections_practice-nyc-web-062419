@@ -24,7 +24,8 @@ def kesha_maker(array)
   array.each do |word|
     if word == "ashley"
     new_array << word.gsub(/[h]/, '$')
-    else new_array << word.gsub(/[a]/, '$')
+    else new_array << word.gsub(/[ao]/, '$')
+    end
   end
   new_array
 end
