@@ -32,6 +32,6 @@ end
 
 def find_a(array)
   new_array = []
-  new_array << array.select { |num|  start_with?("a")  }
+  new_array << array.select { |num|  start_with("a")  }
   new_array
 end
